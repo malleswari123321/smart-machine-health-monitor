@@ -1,0 +1,1 @@
+import os, pandas as pd; os.makedirs('../data', exist_ok=True); pd.DataFrame([{'timestamp':'2026-11-17 12:00:00', 'temp':28.5, 'vib':3500, 'status':'PENDING'}]).to_csv('../data/alerts.csv', index=False); print('Dummy alert created!')
